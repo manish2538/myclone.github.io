@@ -1,0 +1,80 @@
+
+
+.box {
+   
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    
+    align-items: center;
+    padding-top: 1.5rem;
+    height: 70vh;
+    background: rgba(0,0,0,0.7);
+    /* box-shadow: inset 100px 80px 250px #000000,inset -100px -80px 250px #000000; */
+    z-index: 4;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+
+ }  
+
+ section.tab-content ,div.showcase-top{
+     
+     background:url("../img/backgroundwallpaper.jpg");
+     box-shadow: inset 60px 50px 250px #000000,inset -60px -60px 250px #000000;
+
+ }
+
+ 
+ 
+
+
+.box input[type="text"] ,.box input[type="password"]{
+    border:0;
+    background: none;
+    
+    background-color: rgb(236, 230, 230);
+    display: block;
+    /* margin: 10px auto; */
+    margin-top:20px;
+
+    text-align: center;
+    border: none;
+    outline:none;
+    padding:14px 10px;
+    width: 220px;
+    color: rgb(24, 23, 23);
+    border-radius: 3%;
+    transition: 0.25px;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type ="text"]:focus,.box input[type="password"]:focus{
+    width: 270px;
+    color: #000000;
+    border-color: yellow;
+} 
+
+
+
+
+
+form .btn-size{
+    padding: 0.4rem 3rem;
+    margin-top: 30px;
+    
+    color: rgb(255, 254, 254);
+}
+
+@media(max-width:960px) {
+    .box{
+        width: 100vw;
+    }
+} 
